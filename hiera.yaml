@@ -9,8 +9,11 @@ defaults:  # Used for any hierarchy level that omits these keys.
 hierarchy:
   - name: "Per-node data"                   # Human-readable name.
     path: "nodes/%{trusted.certname}.yaml"  # File path, relative to datadir.
-                                   # ^^^ IMPORTANT: include the file extension!
+                                            # ^^^ IMPORTANT: include the file extension!
 
+  - name: "Node specific modules and configs"
+    path: "nodes/${fqdn}.yaml"
+    
   - name: "Per-OS defaults"
     path: "os/%{facts.os.family}.yaml"
 
