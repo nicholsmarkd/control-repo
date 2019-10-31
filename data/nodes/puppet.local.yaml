@@ -1,4 +1,4 @@
 ---
 
-profile::hiera_test::ssl: trye
+profile::hiera_test::ssl: true
 profile::hiera_test::site_alias: "site_alias_value"
