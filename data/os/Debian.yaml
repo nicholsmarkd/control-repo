@@ -1,3 +1,3 @@
 # /etc/puppetlabs/code/environments/production/data/os/Debian.yaml
 ---
-profile::hiera_test::backups_enabled: false
+profile::hiera_test::backups_enabled: true
