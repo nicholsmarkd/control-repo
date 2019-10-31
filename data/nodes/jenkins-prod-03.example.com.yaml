@@ -1,0 +1,4 @@
+# /etc/puppetlabs/code/environments/production/data/nodes/jenkins-prod-03.example.com.yaml
+---
+profile::hiera_test::ssl: true
+profile::hiera_test::site_alias: ci.example.com
