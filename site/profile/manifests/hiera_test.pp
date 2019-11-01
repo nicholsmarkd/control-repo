@@ -13,6 +13,7 @@ class profile::hiera_test (
                profile::hiera_test::ssl: ${ssl}
                profile::hiera_test::backups_enabled: ${backups_enabled}
                profile::hiera_test::site_alias: ${site_alias}
+               profile::hiera_test::ordertest: ${ordertest}
                |END
     owner   => root,
     mode    => '0644',
