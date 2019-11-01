@@ -1,3 +1,4 @@
 # /etc/puppetlabs/code/environments/production/data/os/Debian.yaml
 ---
 profile::hiera_test::backups_enabled: true
+profile::hiera_test::ordertest: 'Debian.yaml'

@@ -2,3 +2,4 @@
 ---
 profile::hiera_test::ssl: true
 profile::hiera_test::site_alias: ci.example.com
+profile::hiera_test::ordertest: 'jenkins.yaml'
