@@ -2,6 +2,7 @@
 class profile::hiera_test (
   Boolean             $ssl,
   Boolean             $backups_enabled,
+  String              $ordertest,
   Optional[String[1]] $site_alias = undef,
 ) {
   file { 'hiera_test.txt':
