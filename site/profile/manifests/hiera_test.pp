@@ -19,7 +19,7 @@ class profile::hiera_test (
   file { 'testfile':
     path => '/tmp/newfile2.txt',
     ensure => file,
-    content => this is the content that i want to see,
+    content => 'this is the content that i want to see',
     owner => root,
     mode => '0644',
   }
