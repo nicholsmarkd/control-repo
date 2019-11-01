@@ -5,7 +5,7 @@ class profile::hiera_test (
   Optional[String[1]] $site_alias = undef,
 ) {
   file { 'hiera_test.txt':
-    path => '/home/vagrant/hiera_test.txt'
+    path => '/home/vagrant/hiera_test.txt',
     ensure  => file,
     content => @("END"),
                Data from profile::hiera_test
