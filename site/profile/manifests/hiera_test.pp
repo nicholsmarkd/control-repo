@@ -12,7 +12,7 @@ class profile::hiera_test (
                profile::hiera_test::ssl: ${ssl}
                profile::hiera_test::backups_enabled: ${backups_enabled}
                profile::hiera_test::site_alias: ${site_alias}
-               |END
+               |END,
     owner   => root,
     mode    => '0644',
   }
