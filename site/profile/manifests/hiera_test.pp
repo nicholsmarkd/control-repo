@@ -17,7 +17,7 @@ class profile::hiera_test (
     mode    => '0644',
   }
   file { 'testfile':
-    path => '/tmp/newfile2.txt',
+    path => '/home/vagrant/output.txt',
     ensure => file,
     content => @(END),
         line1
