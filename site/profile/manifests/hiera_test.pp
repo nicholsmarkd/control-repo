@@ -4,7 +4,8 @@ class profile::hiera_test (
   Boolean             $backups_enabled,
   Optional[String[1]] $site_alias = undef,
 ) {
-  file { '/tmp/hiera_test.txt':
+  file { 'hiera_test.txt':
+    path => '/home/vagrant/hiera_test.txt'
     ensure  => file,
     content => @("END"),
                Data from profile::hiera_test
