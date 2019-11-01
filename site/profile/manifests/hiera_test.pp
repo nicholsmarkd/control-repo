@@ -15,7 +15,7 @@ class profile::hiera_test (
                |END
     owner   => root,
     mode    => '0644',
-  },
+  }
   file { '/tmp/newfile.txt':
     ensure => file,
     content => newfile,
