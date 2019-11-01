@@ -2,3 +2,4 @@
 
 profile::hiera_test::ssl: false
 profile::hiera_test::site_alias: "site_alias_value"
+profile::hiera_test::ordertest: 'puppet.local.yaml'
