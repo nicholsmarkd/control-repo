@@ -21,5 +21,5 @@ class profile::hiera_test (
     content => newfile,
     owner => root,
     mode => '0644',
-  },
+  }
 }
